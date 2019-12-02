@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Disney search</title>
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="main.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="disney.js"></script>
+</head>
+<body>
+  
+  <!--Main photo grid-->
+  <div class="grid-container centered">
+    <div class="grid-100">
+      <div class="contained">
+        <div class="grid-100">
+
+          <!--Header with search form-->
+          <div class="heading">
+             <h1>Welcome to Disney <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"></h1>
+          <div>
+          <img src= "disney.png" alt= "desenho dos castelos da Disney" class="image">
+          </div>  
+            <!--Search form-->
+            <form id="SearchForm">
+              <label for="search">Type a search term</label>
+              <input type="search" name="search" id="search">
+              <input type="button" value="Search" id="btnsearch">
+            </form>
+            
+          </div>
+        </div>
+        
+        <!--Where jquery inserts data-->
+        <div id="conteudo">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
